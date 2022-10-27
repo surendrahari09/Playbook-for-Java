@@ -1,5 +1,0 @@
----
- - hosts: all
-   become: yes
-   tasks:
-     - yum: name=docker state=present
